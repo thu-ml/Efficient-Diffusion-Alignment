@@ -1,11 +1,3 @@
-train_critic.py provides training script of IQL.
-
-train_behavior.py provides training script of the bottleneck diffusion model.
-
-finetune_policy.py provides training script of the alignment stage.
-
-Our codebase is based on the implementation of https://github.com/thu-ml/SRPO (MIT License).
-
 
 # Efficient Diffusion Policy Alignment
 
