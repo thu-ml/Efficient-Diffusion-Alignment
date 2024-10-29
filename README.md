@@ -45,6 +45,8 @@ Finally, run
 TASK="halfcheetah-medium-v2"; seed=0; python3 -u finetune_policy.py --expid ${TASK}-baseline-seed${seed} --env $TASK --seed ${seed} --actor_load_path ./EDA_model_factory/${TASK}-baseline-seed${seed}/behavior_ckpt200.pth --critic_load_path ./EDA_model_factory/${TASK}-baseline-seed${seed}/critic_ckpt150.pth --beta=0.1
 ```
 
+For default choices of `beta`, please checkout Appendix E in the paper.
+
 # Citation
 If you find our project helpful, please consider citing
 
