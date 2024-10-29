@@ -48,12 +48,14 @@ TASK="halfcheetah-medium-v2"; seed=0; python3 -u finetune_policy.py --expid ${TA
 # Citation
 If you find our project helpful, please consider citing
 
+```bibtex
 @article{chen2024aligning,
   title={Aligning Diffusion Behaviors with Q-functions for Efficient Continuous Control},
   author={Chen, Huayu and Zheng, Kaiwen and Su, Hang and Zhu, Jun},
   journal={arXiv preprint arXiv:2407.09024},
   year={2024}
 }
+```
 
 # License and Citation
 
